@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 100vh;
+    /* overflow: hidden; */
+}
+
+.interface {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    padding: 10px 13px;
+    gap: 10px 13px;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 15px;
+    /* position: fixed; */
+    background-color: #fff;
+    border-radius: 9px;
+    box-shadow: 0 0px 7px 2px rgba(0, 0, 0, 0.1);
+    height: 100%;
+}
+
+.left-section .logo,
+.left-section .side-bar .item,
+.left-section .log-out {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.left-section .logo h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.left-section .side-bar .item h3,
+.left-section .log-out h3 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.left-section .logo i,
+.left-section .side-bar .item i,
+.left-section .log-out i {
+    font-size: 20px;
+}
+
+.left-section .side-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 15px;
+
+    background-color: #fff;
+    box-shadow: 0 0px 7px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 9px;
+    height: 100%;
+}
+
+
+main .header-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+main .header-main .search-conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0px 7px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    width: 100%;
+    padding: 8px;
+}
+
+main .header-main .search-conteiner > input {
+    border: none;
+    text-align: center;
+}
+
+main .header-main .social-media ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+main .header-main .social-media ul li a i {
+    font-size: 25px;
+    color: #000;
+}
